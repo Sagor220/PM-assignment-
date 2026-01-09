@@ -8,19 +8,20 @@
 nav {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
     align-items: center;
-    margin: 0 5% 0 5%;
-    padding: 2%;
+    margin: 0px 100px;
 }
-.items-link a {
-    white-space: nowrap;
-    text-decoration: none;
-    color: #334155;
-    font-weight: bold;
-}
-.items-link {
+.features-list ul {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    margin-left: 10px;
+    list-style: none;
+    gap: 25px;
+}
+li a {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
 }
 .early-button button {
     padding: 10px 18px;
@@ -29,63 +30,175 @@ nav {
     border-radius: 6px;
     background: #22c55e;
     color: white;
+    font-weight: bold;
 }
 .hero {
-    margin: 0 auto;
-    text-align: center;
-    background: url("./assets/hero-bg.png");
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
     color: white;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-position: center; */
     padding: 120px 70px 120px 134px;
-    width: 1600px;
-    height: 674px;
+    max-width: 100%;
+    max-height: 674px;
+    margin: 0 auto;
 }
-.early {
-    border: no;
-    border-radius: 5px;
-    padding: 10px 18px;
-    white-space: nowrap;
-    background: white;
-    color: #30b868;
+.hero-container {
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    width: 800px;
+    max-width: 100%;
+    height: 400px;
 }
-.early img {
+.early-access {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: green;
+}
+.early-access img {
+    height: 10px;
+    width: 10px;
     position: relative;
-    top: 7px;
-    right: 5px;
+    top: 1px;
+    filter: brightness(0) saturate(100%) invert(61%) sepia(83%) saturate(348%)
+        hue-rotate(80deg); /*idea is taken from chatgpt*/
 }
-.heading-1 {
-    font-size: 60px;
-    font-weight: bold;
-    white-space: nowrap;
-    margin: 16px;
+.heading1 {
+    color: white;
+    font-size: 50px;
 }
-.heading-2 {
-    font-size: 60px;
-    font-weight: bold;
-    white-space: nowrap;
-    color: #30b868;
-    margin: 16px;
-}
-.about {
-    margin: 16px;
-}
-.buttons button {
-    margin: 20px;
+.heading2 {
+    color: green;
+    font-size: 50px;
 }
 .btn1 {
-    padding: 10px 18px;
+    padding: 7px 18px;
     white-space: nowrap;
     border: none;
     border-radius: 6px;
     background: #22c55e;
     color: white;
 }
+.btn1 img {
+    position: relative;
+    top: 2px;
+    height: 10px;
+    width: 10px;
+}
 .btn2 {
     padding: 10px 18px;
     white-space: nowrap;
+    border: none;
+    background: none;
     border: 1px solid white;
     border-radius: 6px;
-    background: none;
     color: white;
+}
+.btn2 img {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: 2px;
+    filter: brightness(0) invert(1); /*idea is taken from chatgpt*/
+}
+.card{
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  margin:20px 150px;
+}
+.cards{
+  height: 250px;
+  width: 20%;
+  background: wheat;
+  padding: 5%;
+  border: none;
+  border-radius: 5px;
+}
+.cards img{
+  background: red;
+  border-radius: 50%;
+  padding: 10%;
+}
+.card-container h1{
+  font-size: 50px;
+}
+.brain{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.sec1{
+  width: 40%;
+  margin-left: 10%;
+}
+.sec2{
+  width: 40%;
+  margin-right: 10%;
+}
+.sec2 ul{
+  list-style: none;
+}
+.sec2 ul li img{
+  position: relative;
+  top: 5px;
+}
+.sec2 ul li{
+  font-weight: bold;
+}
+.sec2 h1{
+  font-size: 50px;
+}
+.last-section {
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    width: 1200px;
+    max-width: 100%;
+    height: 300px;
+    background: wheat;
+}
+footer{
+  background: rgb(78,72,95);
+  width:100%;
+  max-width: 100%;
+  height: 400px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:2% 10% 0 10%;
+}
+.social ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.socialLink{
+  margin-left: 40px;
+  color: white;
+  font-size: 20px;
+}
+.social ul li img{
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 50%;
+}
+.copyright{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 240px;
+  color: white;
 }
