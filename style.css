@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
     max-width: 100%;
     align-items: center;
-    margin: 0px 100px;
+    margin: 10px 100px;
 }
 .features-list ul {
     display: flex;
@@ -103,61 +103,61 @@ li a {
     top: 2px;
     filter: brightness(0) invert(1); /*idea is taken from chatgpt*/
 }
-.card{
-  align-items: center;
-  margin: 0 auto;
-  text-align: center;
+.card {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
 }
-.card-section{
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 100%;
-  margin:20px 150px;
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+    margin: 20px 150px;
 }
-.cards{
-  height: 250px;
-  width: 20%;
-  background: wheat;
-  padding: 5%;
-  border: none;
-  border-radius: 5px;
+.cards {
+    height: 250px;
+    width: 20%;
+    background: wheat;
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
 }
-.cards img{
-  background: red;
-  border-radius: 50%;
-  padding: 10%;
+.cards img {
+    background: red;
+    border-radius: 50%;
+    padding: 10%;
 }
-.card-container h1{
-  font-size: 50px;
+.card-container h1 {
+    font-size: 50px;
 }
-.brain{
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  margin: 0 auto;
-  align-items: center;
+.brain {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
 }
-.sec1{
-  width: 40%;
-  margin-left: 10%;
+.sec1 {
+    width: 40%;
+    margin-left: 10%;
 }
-.sec2{
-  width: 40%;
-  margin-right: 10%;
+.sec2 {
+    width: 40%;
+    margin-right: 10%;
 }
-.sec2 ul{
-  list-style: none;
+.sec2 ul {
+    list-style: none;
 }
-.sec2 ul li img{
-  position: relative;
-  top: 5px;
+.sec2 ul li img {
+    position: relative;
+    top: 5px;
 }
-.sec2 ul li{
-  font-weight: bold;
+.sec2 ul li {
+    font-weight: bold;
 }
-.sec2 h1{
-  font-size: 50px;
+.sec2 h1 {
+    font-size: 50px;
 }
 .last-section {
     margin: 0 auto;
@@ -168,37 +168,37 @@ li a {
     height: 300px;
     background: wheat;
 }
-footer{
-  background: rgb(78,72,95);
-  width:100%;
-  max-width: 100%;
-  height: 400px;
+footer {
+    background: rgb(78, 72, 95);
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
 }
-.footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:2% 10% 0 10%;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10% 0 10%;
 }
-.social ul{
-  list-style: none;
-  display: flex;
-  gap: 10px;
+.social ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
-.socialLink{
-  margin-left: 40px;
-  color: white;
-  font-size: 20px;
+.socialLink {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
 }
-.social ul li img{
-  height: 30px;
-  width: 30px;
-  background: white;
-  border-radius: 50%;
+.social ul li img {
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50%;
 }
-.copyright{
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 240px;
-  color: white;
+.copyright {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 240px;
+    color: white;
 }
